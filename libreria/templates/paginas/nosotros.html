@@ -1,0 +1,13 @@
+<!--Aqui se le dice que exienda desde base.html lo que esta dentro de ese archivo. Qu een este caso es el header-->
+{% extends "base.html" %}
+
+<!--Aqui se le cambiara el titulo a lo que nosotros escribamos dentro de el-->
+{% block titulo %} Nosotros {% endblock %}
+
+
+<!--Aqui se puede escribir todo lo que contendra la pagina, ya sea codigo html o lo que sea. Esto tambien se agrega en el html base-->
+{% block contenido %}
+
+    Seccion de nosotros
+
+{% endblock %}

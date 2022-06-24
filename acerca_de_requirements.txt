@@ -1,0 +1,14 @@
+en el archivo requirements.txt tenemos todos los requerimientos que estan en pip list.
+Para ver los que tenemos instalados basta con usare el comando 
+
+    $pip freeze
+
+Si lo que queremos es escribir los requerimientos en el archivo requirements.txt tenemos que ejecutar
+el comando
+
+    $pip freeze > requirements.txt
+
+Y para instalar todos los requerimientos que tenemos en el archivo requirements.txt tenemos que
+ejecutar el comando 
+
+    $pip install -r requirements.txt
