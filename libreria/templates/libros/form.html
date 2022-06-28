@@ -1,6 +1,7 @@
 <form enctype="multipart/form-data" method="post">
   <!--Para que Django sepa que el formulario viene desde nuestra propia aplicacion y que no lo la haga de emocion-->
   {% csrf_token %}
+  <!-- el nombre formulario, es el que se le da en el views.py-->
   {% for campo in formulario %}
     <div class="mb-3">
       <!--el campo.label es para que pueda cambiar el nombre de lo que esta considerando segun los datos 
